@@ -1,0 +1,9 @@
+{
+  "drugs": 13,
+  "targets": 11,
+  "interactions": 16,
+  "studies": 10,
+  "nodes": 39,
+  "edges": 40,
+  "figures": 10
+}

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="jurisdiction" attr.type="string"/>
+<key id="d4" for="edge" attr.name="mechanism" attr.type="string"/>
+<key id="d3" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d2" for="node" attr.name="uniprot" attr.type="string"/>
+<key id="d1" for="node" attr.name="node_type" attr.type="string"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="undirected"><data key="d0">Autoimmune biologics evidence network</data>
+<node id="Infliximab">
+  <data key="d1">drug</data>
+</node>
+<node id="TNF">
+  <data key="d1">target</data>
+  <data key="d2">P01375</data>
+</node>
+<node id="Adalimumab">
+  <data key="d1">drug</data>
+</node>
+<node id="Etanercept">
+  <data key="d1">drug</data>
+</node>
+<node id="Rituximab">
+  <data key="d1">drug</data>
+</node>
+<node id="MS4A1">
+  <data key="d1">target</data>
+  <data key="d2">P11836</data>
+</node>
+<node id="Tocilizumab">
+  <data key="d1">drug</data>
+</node>
+<node id="IL6R">
+  <data key="d1">target</data>
+  <data key="d2">P08887</data>
+</node>
+<node id="Obinutuzumab">
+  <data key="d1">drug</data>
+</node>
+<node id="Ianalumab">
+  <data key="d1">drug</data>
+</node>
+<node id="TNFRSF13C">
+  <data key="d1">target</data>
+  <data key="d2">Q96RJ3</data>
+</node>
+<node id="Telitacicept">
+  <data key="d1">drug</data>
+</node>
+<node id="TNFSF13B">
+  <data key="d1">target</data>
+  <data key="d2">Q9Y275</data>
+</node>
+<node id="TNFSF13">
+  <data key="d1">target</data>
+  <data key="d2">O75888</data>
+</node>
+<node id="Bimekizumab">
+  <data key="d1">drug</data>
+</node>
+<node id="IL17A">
+  <data key="d1">target</data>
+  <data key="d2">Q16552</data>
+</node>
+<node id="IL17F">
+  <data key="d1">target</data>
+  <data key="d2">Q96PD4</data>
+</node>
+<node id="Sonelokimab">
+  <data key="d1">drug</data>
+</node>
+<node id="Efgartigimod">
+  <data key="d1">drug</data>
+</node>
+<node id="FCGRT">
+  <data key="d1">target</data>
+  <data key="d2">P55899</data>
+</node>
+<node id="Ravulizumab">
+  <data key="d1">drug</data>
+</node>
+<node id="C5">
+  <data key="d1">target</data>
+  <data key="d2">P01031</data>
+</node>
+<node id="Dazodalibep">
+  <data key="d1">drug</data>
+</node>
+<node id="CD40LG">
+  <data key="d1">target</data>
+  <data key="d2">P29965</data>
+</node>
+<node id="rheumatoid arthritis">
+  <data key="d1">disease</data>
+</node>
+<node id="active lupus nephritis">
+  <data key="d1">disease</data>
+</node>
+<node id="Sjögren disease">
+  <data key="d1">disease</data>
+</node>
+<node id="systemic lupus erythematosus">
+  <data key="d1">disease</data>
+</node>
+<node id="psoriatic arthritis">
+  <data key="d1">disease</data>
+</node>
+<node id="generalized myasthenia gravis">
+  <data key="d1">disease</data>
+</node>
+<node id="AChR-antibody-positive generalized myasthenia gravis">
+  <data key="d1">disease</data>
+</node>
+<node id="TNF signaling / NF-kB">
+  <data key="d1">pathway</data>
+</node>
+<node id="B-cell depletion">
+  <data key="d1">pathway</data>
+</node>
+<node id="IL-6 signaling">
+  <data key="d1">pathway</data>
+</node>
+<node id="B-cell survival">
+  <data key="d1">pathway</data>
+</node>
+<node id="IL-17 signaling">
+  <data key="d1">pathway</data>
+</node>
+<node id="IgG homeostasis">
+  <data key="d1">pathway</data>
+</node>
+<node id="Terminal complement">
+  <data key="d1">pathway</data>
+</node>
+<node id="CD40 co-stimulation">
+  <data key="d1">pathway</data>
+</node>
+<edge source="Infliximab" target="TNF">
+  <data key="d3">directly_targets</data>
+  <data key="d4">ligand neutralization</data>
+</edge>
+<edge source="Infliximab" target="rheumatoid arthritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="TNF" target="Adalimumab">
+  <data key="d3">directly_targets</data>
+  <data key="d4">ligand neutralization</data>
+</edge>
+<edge source="TNF" target="Etanercept">
+  <data key="d3">directly_targets</data>
+  <data key="d4">soluble decoy receptor binding</data>
+</edge>
+<edge source="TNF" target="TNF signaling / NF-kB">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Adalimumab" target="rheumatoid arthritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="Etanercept" target="rheumatoid arthritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="Rituximab" target="MS4A1">
+  <data key="d3">directly_targets</data>
+  <data key="d4">CD20-directed B-cell cytolysis</data>
+</edge>
+<edge source="Rituximab" target="rheumatoid arthritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="MS4A1" target="Obinutuzumab">
+  <data key="d3">directly_targets</data>
+  <data key="d4">type II CD20-directed B-cell cytolysis</data>
+</edge>
+<edge source="MS4A1" target="B-cell depletion">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Tocilizumab" target="IL6R">
+  <data key="d3">directly_targets</data>
+  <data key="d4">IL-6 receptor blockade</data>
+</edge>
+<edge source="Tocilizumab" target="rheumatoid arthritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="IL6R" target="IL-6 signaling">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Obinutuzumab" target="active lupus nephritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="Ianalumab" target="TNFRSF13C">
+  <data key="d3">directly_targets</data>
+  <data key="d4">BAFF-R blockade plus ADCC-mediated B-cell depletion</data>
+</edge>
+<edge source="Ianalumab" target="Sjögren disease">
+  <data key="d3">investigated_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="TNFRSF13C" target="B-cell survival">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Telitacicept" target="TNFSF13B">
+  <data key="d3">directly_targets</data>
+  <data key="d4">ligand sequestration by TACI-Fc</data>
+</edge>
+<edge source="Telitacicept" target="TNFSF13">
+  <data key="d3">directly_targets</data>
+  <data key="d4">ligand sequestration by TACI-Fc</data>
+</edge>
+<edge source="Telitacicept" target="systemic lupus erythematosus">
+  <data key="d3">approved_for</data>
+  <data key="d5">China</data>
+</edge>
+<edge source="TNFSF13B" target="B-cell survival">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="TNFSF13" target="B-cell survival">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Bimekizumab" target="IL17A">
+  <data key="d3">directly_targets</data>
+  <data key="d4">cytokine neutralization</data>
+</edge>
+<edge source="Bimekizumab" target="IL17F">
+  <data key="d3">directly_targets</data>
+  <data key="d4">cytokine neutralization</data>
+</edge>
+<edge source="Bimekizumab" target="psoriatic arthritis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="IL17A" target="Sonelokimab">
+  <data key="d3">directly_targets</data>
+  <data key="d4">nanobody cytokine neutralization</data>
+</edge>
+<edge source="IL17A" target="IL-17 signaling">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="IL17F" target="Sonelokimab">
+  <data key="d3">directly_targets</data>
+  <data key="d4">nanobody cytokine neutralization</data>
+</edge>
+<edge source="IL17F" target="IL-17 signaling">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Sonelokimab" target="psoriatic arthritis">
+  <data key="d3">investigated_for</data>
+  <data key="d5">international</data>
+</edge>
+<edge source="Efgartigimod" target="FCGRT">
+  <data key="d3">directly_targets</data>
+  <data key="d4">competitive FcRn blockade</data>
+</edge>
+<edge source="Efgartigimod" target="generalized myasthenia gravis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="FCGRT" target="IgG homeostasis">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Ravulizumab" target="C5">
+  <data key="d3">directly_targets</data>
+  <data key="d4">terminal complement C5 inhibition</data>
+</edge>
+<edge source="Ravulizumab" target="AChR-antibody-positive generalized myasthenia gravis">
+  <data key="d3">approved_for</data>
+  <data key="d5">United States</data>
+</edge>
+<edge source="C5" target="Terminal complement">
+  <data key="d3">participates_in</data>
+</edge>
+<edge source="Dazodalibep" target="CD40LG">
+  <data key="d3">directly_targets</data>
+  <data key="d4">CD40L antagonism by fusion protein</data>
+</edge>
+<edge source="Dazodalibep" target="Sjögren disease">
+  <data key="d3">investigated_for</data>
+  <data key="d5">international</data>
+</edge>
+<edge source="CD40LG" target="CD40 co-stimulation">
+  <data key="d3">participates_in</data>
+</edge>
+</graph></graphml>

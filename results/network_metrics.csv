@@ -1,0 +1,40 @@
+node,node_type,degree,component
+rheumatoid arthritis,disease,5,1
+Sjögren disease,disease,2,2
+psoriatic arthritis,disease,2,3
+AChR-antibody-positive generalized myasthenia gravis,disease,1,5
+active lupus nephritis,disease,1,1
+generalized myasthenia gravis,disease,1,4
+systemic lupus erythematosus,disease,1,2
+Bimekizumab,drug,3,3
+Sonelokimab,drug,3,3
+Telitacicept,drug,3,2
+Adalimumab,drug,2,1
+Dazodalibep,drug,2,2
+Efgartigimod,drug,2,4
+Etanercept,drug,2,1
+Ianalumab,drug,2,2
+Infliximab,drug,2,1
+Obinutuzumab,drug,2,1
+Ravulizumab,drug,2,5
+Rituximab,drug,2,1
+Tocilizumab,drug,2,1
+B-cell survival,pathway,3,2
+IL-17 signaling,pathway,2,3
+B-cell depletion,pathway,1,1
+CD40 co-stimulation,pathway,1,2
+IL-6 signaling,pathway,1,1
+IgG homeostasis,pathway,1,4
+TNF signaling / NF-kB,pathway,1,1
+Terminal complement,pathway,1,5
+TNF,target,4,1
+IL17A,target,3,3
+IL17F,target,3,3
+MS4A1,target,3,1
+C5,target,2,5
+CD40LG,target,2,2
+FCGRT,target,2,4
+IL6R,target,2,1
+TNFRSF13C,target,2,2
+TNFSF13,target,2,2
+TNFSF13B,target,2,2
