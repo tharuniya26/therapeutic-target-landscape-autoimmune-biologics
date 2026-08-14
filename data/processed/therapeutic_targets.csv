@@ -1,0 +1,13 @@
+target_gene,target_name,target_uniprot_id,hgnc_id,target_class,verification_status,primary_reference
+TNF,Tumor necrosis factor,P01375,HGNC:11892,cytokine,verified,https://www.uniprot.org/uniprotkb/P01375
+MS4A1,B-lymphocyte antigen CD20,P11836,HGNC:7315,cell-surface protein,verified,https://www.uniprot.org/uniprotkb/P11836
+IL6R,Interleukin-6 receptor subunit alpha,P08887,HGNC:6019,receptor,verified,https://www.uniprot.org/uniprotkb/P08887
+TNFRSF13C,B-cell-activating factor receptor,Q96RJ3,HGNC:17755,receptor,verified,https://www.uniprot.org/uniprotkb/Q96RJ3
+TNFSF13B,B-cell-activating factor,Q9Y275,HGNC:11929,cytokine,verified,https://www.uniprot.org/uniprotkb/Q9Y275
+TNFSF13,A proliferation-inducing ligand,O75888,HGNC:11928,cytokine,verified,https://www.uniprot.org/uniprotkb/O75888
+IL17A,Interleukin-17A,Q16552,HGNC:5981,cytokine,verified,https://www.uniprot.org/uniprotkb/Q16552
+IL17F,Interleukin-17F,Q96PD4,HGNC:16404,cytokine,verified,https://www.uniprot.org/uniprotkb/Q96PD4
+FCGRT,IgG receptor FcRn large subunit p51,P55899,HGNC:3621,receptor,verified,https://www.uniprot.org/uniprotkb/P55899
+C5,Complement C5,P01031,HGNC:1331,complement protein,verified,https://www.uniprot.org/uniprotkb/P01031
+CD40LG,CD40 ligand,P29965,HGNC:11935,co-stimulatory ligand,verified,https://www.uniprot.org/uniprotkb/P29965
+
