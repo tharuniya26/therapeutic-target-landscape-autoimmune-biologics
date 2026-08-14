@@ -1,0 +1,26 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.venv/
+
+# LaTeX compilation artifacts (retain source and final PDF)
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+reports/*.lof
+reports/*.lot
+reports/*.fls
+reports/*.fdb_latexmk
+reports/*.synctex.gz
+
+# Temporary PDF inspection output
+reports/layout_check/
+reports/layout_check_after/
+reports/layout_check_final/
+reports/layout_check.txt
+
+# Private source material
+source_material_private/

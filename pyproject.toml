@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoimmune-biologics-target-landscape"
+version = "1.0.0"
+description = "An auditable computational map of biologic drugs, targets, pathways, diseases, and clinical evidence."
+authors = [{name = "Tharuniya Anpalakan"}]
+requires-python = ">=3.11"
+dependencies = [
+  "pandas==3.0.6", "numpy==2.4.2", "networkx==3.7",
+  "matplotlib==3.11.2", "seaborn==0.13.2", "nbformat==5.10.4", "nbclient==0.10.2"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --basetemp=.pytest-tmp"
+pythonpath = ["."]
+
+[tool.setuptools]
+packages = ["src"]
+
