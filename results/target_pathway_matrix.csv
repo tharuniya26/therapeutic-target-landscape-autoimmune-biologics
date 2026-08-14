@@ -1,0 +1,12 @@
+target_gene,TNF signaling / NF-kB,B-cell depletion,IL-6 signaling,B-cell survival,IL-17 signaling,IgG homeostasis,Terminal complement,CD40 co-stimulation
+TNF,1,0,0,0,0,0,0,0
+MS4A1,0,1,0,0,0,0,0,0
+IL6R,0,0,1,0,0,0,0,0
+TNFRSF13C,0,0,0,1,0,0,0,0
+TNFSF13B,0,0,0,1,0,0,0,0
+TNFSF13,0,0,0,1,0,0,0,0
+IL17A,0,0,0,0,1,0,0,0
+IL17F,0,0,0,0,1,0,0,0
+FCGRT,0,0,0,0,0,1,0,0
+C5,0,0,0,0,0,0,1,0
+CD40LG,0,0,0,0,0,0,0,1

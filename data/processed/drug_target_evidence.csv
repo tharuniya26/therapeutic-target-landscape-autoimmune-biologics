@@ -1,0 +1,18 @@
+drug_name,target_gene,target_uniprot_id,interaction_mechanism,relationship,evidence_type,source_identifier,evidence_source,verification_status
+Infliximab,TNF,P01375,ligand neutralization,direct,regulatory label,FDA Remicade label,https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/103772s5401lbl.pdf,verified
+Adalimumab,TNF,P01375,ligand neutralization,direct,regulatory label,FDA Humira label,https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/125057s417lbl.pdf,verified
+Etanercept,TNF,P01375,soluble decoy receptor binding,direct,regulatory label,FDA Enbrel label,https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/103795s5588lbl.pdf,verified
+Rituximab,MS4A1,P11836,CD20-directed B-cell cytolysis,direct,regulatory label,FDA Rituxan label,https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/103705s5464lbl.pdf,verified
+Tocilizumab,IL6R,P08887,IL-6 receptor blockade,direct,regulatory label,FDA Actemra label,https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125276s138lbl.pdf,verified
+Obinutuzumab,MS4A1,P11836,type II CD20-directed B-cell cytolysis,direct,regulatory label,FDA label 125486s040,https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/125486s040lbl.pdf,verified
+Ianalumab,TNFRSF13C,Q96RJ3,BAFF-R blockade plus ADCC-mediated B-cell depletion,direct,phase 2b publication,10.1016/S0140-6736(21)02251-0,https://doi.org/10.1016/S0140-6736(21)02251-0,verified
+Telitacicept,TNFSF13B,Q9Y275,ligand sequestration by TACI-Fc,direct,phase 3 publication,10.1056/NEJMoa2414719,https://doi.org/10.1056/NEJMoa2414719,verified
+Telitacicept,TNFSF13,O75888,ligand sequestration by TACI-Fc,direct,phase 3 publication,10.1056/NEJMoa2414719,https://doi.org/10.1056/NEJMoa2414719,verified
+Bimekizumab,IL17A,Q16552,cytokine neutralization,direct,regulatory label,FDA 761151s009,https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761151s009lbl.pdf,verified
+Bimekizumab,IL17F,Q96PD4,cytokine neutralization,direct,regulatory label,FDA 761151s009,https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761151s009lbl.pdf,verified
+Sonelokimab,IL17A,Q16552,nanobody cytokine neutralization,direct,phase 2 publication,10.1038/s41591-025-03971-6,https://doi.org/10.1038/s41591-025-03971-6,verified
+Sonelokimab,IL17F,Q96PD4,nanobody cytokine neutralization,direct,phase 2 publication,10.1038/s41591-025-03971-6,https://doi.org/10.1038/s41591-025-03971-6,verified
+Efgartigimod,FCGRT,P55899,competitive FcRn blockade,direct,regulatory label,FDA orphan approval record,https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=527316,verified
+Ravulizumab,C5,P01031,terminal complement C5 inhibition,direct,regulatory label,FDA 761108s037,https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761108s037lbl.pdf,verified
+Dazodalibep,CD40LG,P29965,CD40L antagonism by fusion protein,direct,phase 2 publication,NCT04129164,https://doi.org/10.1038/s41591-024-03009-3,verified
+
